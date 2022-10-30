@@ -1,0 +1,84 @@
+   0 whoami
+   1 cd ..
+   2 ls
+   3 pwd
+   4 cd
+   5 pwd
+   6 cd /h
+   7 cd /home/
+   8 mkdir animals
+   9 ls
+  10 cd /home/animals/
+  11 mkdir dogs
+  12 cd dogs
+  13 pwd
+  14 cd /home/animals
+  15 mkdir cats
+  16 mkdir fish
+  17 cd dogs
+  18 touch pluto.txt
+  19 cd animals
+  20 cd /animals
+  21 cd /home/animals
+  22 cd /home/animals/cats
+  23 touch garfield.txt
+  24 cd /home/animals/fish
+  25 touch nemo.txt
+  26 cd
+  27 cd /home
+  28 ls
+  29 tree
+  30 cd
+  31 mkdir -p /tmp/adam.txt
+  32 mkdir -p /home/animals/humans
+  33 cd /home/animals/humans
+  34 cd /tmp
+  35 ls
+  36 touch adam.txt
+  37 cd
+  38 cp /tmp/adam.txt /home/humans
+  39 ls /tmp
+  40 ls /home/humans
+  41 cp /tmp/adam.txt /home/animals/humans
+  42 cd /home
+  43 ls
+  44 tree
+  45 cd /tmp
+  46 touch  adam.txt
+  47 ls
+  48 tree
+  49 touch adam.txt
+  50 ls
+  51 tree
+  52 cd
+  53 /tmp
+  54 cd
+  55 cd /home
+  56 cd
+  57 cd /tmp
+  58 touch adam.txt
+  59 ls
+  60 tree
+  61 /adam.txt
+  62 cd /adam.txt
+  63 cd /tmp/adam.txt
+  64 touch adam.txt
+  65 ls
+  66 cd
+  67 cp /tmp/adam.txt/adam.txt /home/animals/humans
+  68 cd /tmp
+  69 tree
+  70 touch evA.txt
+  71 cd
+  72 cp /tmp/adam.txt/evA.txt /opt/eve.txt
+  73 cd /tmp
+  74 tree
+  75 cd
+  76 cp /tmp/evA.txt /opt/eve.txt
+  77 ls /opt
+  78 mv /opt/eve.txt /home/animals/humans
+  79 cd /home/animals/humans
+  80 tree
+  81 cd
+  82 export_file history.txt
+  83 history > history.txt
